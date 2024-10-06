@@ -132,8 +132,10 @@ img{
 
     height:fit-content;
     width:35vw;
-
-   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:2vh;
 }
 
 .box1{
