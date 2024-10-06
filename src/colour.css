@@ -101,7 +101,7 @@ img{
     width:35vw;
     height:fit-content;
     position: fixed;
-    top:20vh;
+    top:9vh;
     right:0vw;
     display: flex;
     flex-direction: column;
@@ -136,6 +136,8 @@ img{
     flex-direction: column;
     justify-content: space-between;
     gap:2vh;
+    overflow-x: auto;
+    overflow-y: scroll;
 }
 
 .box1{
