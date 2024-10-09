@@ -1,16 +1,17 @@
-import './colour.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faPepperHot} from '@fortawesome/free-solid-svg-icons'
-function Nav() {
+import './colour.css'
+function Card({names,desc,ig}){
     return(
-        <div className="con1">
-            <div className="logo"><FontAwesomeIcon icon={faPepperHot} /></div>
-            <div className="opt">
-                <div className="home">HOME</div>
-                <div className="about">About US</div>
-                <div className="cat">Category</div>
+        <>
+        <div className='par'>
+            <div className='mot'>
+                <img src={ig}/>
+                <h1 className='head2'>{names}</h1>
+                <p>{desc}</p>
             </div>
         </div>
+
+        </>
     )
+    
 }
-export default Nav
+export default Card
